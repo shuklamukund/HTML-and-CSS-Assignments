@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+}
+body{
+    background-color: aqua;
+}
+@media screen and (max-width:1440px){
+    body{
+        background-color: rgb(8, 141, 46);
+    }
+}
+@media screen and (max-width:1024px){
+    body{
+        background-color: rgb(175, 161, 7);
+    }
+}
+@media screen and (max-width:768px){
+    body{
+        background-color: rgb(113, 183, 221);
+    }
+}
+@media screen and (max-width:425px){
+    body{
+        background-color: rgb(222, 36, 7);
+    }
+}
